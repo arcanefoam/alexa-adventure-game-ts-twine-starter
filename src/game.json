@@ -1,0 +1,286 @@
+{
+  "passages": [
+    {
+      "text": "You're in a small office, there is a door to your left and a window in front of you. A desk sits below the window piled high with paperwork.\nDo you [[explore the desk]], try to [[climb out the window]], or attempt to [[escape through the door]]?",
+      "links": [
+        {
+          "name": "explore the desk",
+          "link": "explore the desk",
+          "pid": "2"
+        },
+        {
+          "name": "climb out the window",
+          "link": "climb out the window",
+          "pid": "3"
+        },
+        {
+          "name": "escape through the door",
+          "link": "escape through the door",
+          "pid": "4"
+        }
+      ],
+      "name": "In the office",
+      "pid": "1",
+      "position": {
+        "x": "975",
+        "y": "674"
+      }
+    },
+    {
+      "text": "While rummaging through the paperwork that's piled on the desk you find a room key. The key is a perfect fit for the door, you unlock it and step out into a small corridor.\nDo you [[turn left|deadend]] or [[right|first floor]]?",
+      "links": [
+        {
+          "name": "turn left|deadend",
+          "link": "turn left|deadend"
+        },
+        {
+          "name": "right|first floor",
+          "link": "right|first floor"
+        }
+      ],
+      "name": "explore the desk",
+      "pid": "2",
+      "position": {
+        "x": "1099",
+        "y": "824"
+      }
+    },
+    {
+      "text": "You clamber on top of the desk and climb out of the window expecting your feet to land on the terrace. But there is nothing there, and you're falling.",
+      "name": "climb out the window",
+      "pid": "3",
+      "position": {
+        "x": "853",
+        "y": "825"
+      }
+    },
+    {
+      "text": "You pull on the handle but the door is locked. Your only options are to [[explore the desk]] or [[climb out the window]].",
+      "links": [
+        {
+          "name": "explore the desk",
+          "link": "explore the desk",
+          "pid": "2"
+        },
+        {
+          "name": "climb out the window",
+          "link": "climb out the window",
+          "pid": "3"
+        }
+      ],
+      "name": "escape through the door",
+      "pid": "4",
+      "position": {
+        "x": "975",
+        "y": "824"
+      }
+    },
+    {
+      "text": "The doors to the elevator open. You step inside and look at buttons on the panel.\n[[press second floor|second floor]].\n[[reception]].\n[[basement]].\nWhich button do you press?",
+      "links": [
+        {
+          "name": "press second floor|second floor",
+          "link": "press second floor|second floor"
+        },
+        {
+          "name": "reception",
+          "link": "reception",
+          "pid": "8"
+        },
+        {
+          "name": "basement",
+          "link": "basement",
+          "pid": "7"
+        }
+      ],
+      "name": "first floor lift",
+      "pid": "5",
+      "position": {
+        "x": "901",
+        "y": "1249"
+      }
+    },
+    {
+      "text": "You walk over to the staircase, the coast seems clear. Do you [[go up|second floor]] or do you go [[down|reception]] the stairs?",
+      "links": [
+        {
+          "name": "go up|second floor",
+          "link": "go up|second floor"
+        },
+        {
+          "name": "down|reception",
+          "link": "down|reception"
+        }
+      ],
+      "name": "first floor staircase",
+      "pid": "6",
+      "position": {
+        "x": "900",
+        "y": "977"
+      }
+    },
+    {
+      "text": "The smell of damp hits you straight away as you step into the basement. You look around but there is no exit, you're only option is to go back up.\nDo you [[take the elevator|basement lift]]? or do you [[take the stairs|basement staircase]]?",
+      "links": [
+        {
+          "name": "take the elevator|basement lift",
+          "link": "take the elevator|basement lift"
+        },
+        {
+          "name": "take the stairs|basement staircase",
+          "link": "take the stairs|basement staircase"
+        }
+      ],
+      "name": "basement",
+      "pid": "7",
+      "position": {
+        "x": "1300",
+        "y": "1099"
+      }
+    },
+    {
+      "text": "You arrive in the reception, the lights are off and there is no one behind the counter. You walk over to the main entrance and try the door, it's locked.\nAs you turn around to head back something jumps out from behind the reception desk, you've been caught.",
+      "name": "reception",
+      "pid": "8",
+      "position": {
+        "x": "1103",
+        "y": "1101"
+      }
+    },
+    {
+      "text": "You're on an empty roof terrace, there is no way out except for back down.\nDo you [[take the stairs|first floor]] or do you take the [[elevator|second floor lift]]?",
+      "links": [
+        {
+          "name": "take the stairs|first floor",
+          "link": "take the stairs|first floor"
+        },
+        {
+          "name": "elevator|second floor lift",
+          "link": "elevator|second floor lift"
+        }
+      ],
+      "name": "second floor",
+      "pid": "9",
+      "position": {
+        "x": "700",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "You're in a small opening at the end of a door lined corridor.\nThere is staircase to your left and an elevator to your right. Do you [[take the stairs|first floor staircase]], take the [[elevator|first floor lift]], or [[walk down the corridor|deadend]]?",
+      "links": [
+        {
+          "name": "take the stairs|first floor staircase",
+          "link": "take the stairs|first floor staircase"
+        },
+        {
+          "name": "elevator|first floor lift",
+          "link": "elevator|first floor lift"
+        },
+        {
+          "name": "walk down the corridor|deadend",
+          "link": "walk down the corridor|deadend"
+        }
+      ],
+      "name": "first floor",
+      "pid": "10",
+      "position": {
+        "x": "900",
+        "y": "1099"
+      }
+    },
+    {
+      "text": "As you rush down the corridor you hear footsteps following you. You pick up pace but hit a deadend.\nYou can not turn back.\nGame-over.",
+      "name": "deadend",
+      "pid": "11",
+      "position": {
+        "x": "1251",
+        "y": "827"
+      }
+    },
+    {
+      "text": "You call the elevator and wait in the dark for it to arrive. Straight away as the doors slide open you dive inside. You look at buttons on the panel.\n[[press second floor|second floor]].\n[[first floor]].\n[[reception]].\nWhich button do you press?",
+      "links": [
+        {
+          "name": "press second floor|second floor",
+          "link": "press second floor|second floor"
+        },
+        {
+          "name": "first floor",
+          "link": "first floor",
+          "pid": "10"
+        },
+        {
+          "name": "reception",
+          "link": "reception",
+          "pid": "8"
+        }
+      ],
+      "name": "basement lift",
+      "pid": "12",
+      "position": {
+        "x": "1300",
+        "y": "1251"
+      }
+    },
+    {
+      "text": "You're almost at the top of the staircase when you notice a flickering light coming from an alcove.\nYou stop in your tracks unsure of whether to [[turn around|basement]] or [[carry on]] towards the light.",
+      "links": [
+        {
+          "name": "turn around|basement",
+          "link": "turn around|basement"
+        },
+        {
+          "name": "carry on",
+          "link": "carry on",
+          "pid": "15"
+        }
+      ],
+      "name": "basement staircase",
+      "pid": "13",
+      "position": {
+        "x": "1300",
+        "y": "963"
+      }
+    },
+    {
+      "text": "You step into the elevator, glad to be out of the cold nights air.\nYou look at buttons on the panel.\n[[press first floor|first floor]].\n[[reception]].\n[[basement]].\nWhich button do you press?",
+      "links": [
+        {
+          "name": "press first floor|first floor",
+          "link": "press first floor|first floor"
+        },
+        {
+          "name": "reception",
+          "link": "reception",
+          "pid": "8"
+        },
+        {
+          "name": "basement",
+          "link": "basement",
+          "pid": "7"
+        }
+      ],
+      "name": "second floor lift",
+      "pid": "14",
+      "position": {
+        "x": "700",
+        "y": "1247"
+      }
+    },
+    {
+      "text": "You reach the alcove and discover the flickering light is from an exit sign above a door.\nYou push the door open, stumbling out onto the pavement.\nCongratulations you've escaped the office.",
+      "name": "carry on",
+      "pid": "15",
+      "position": {
+        "x": "1451",
+        "y": "973"
+      }
+    }
+  ],
+  "name": "Escape the Office",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.2.1",
+  "ifid": "008DE057-80C8-42F0-9C0B-92B59B2DFE2D"
+}

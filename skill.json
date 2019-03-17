@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Interactive Adventure Game",
+          "examplePhrases": [
+            "Alexa start interactive game",
+            "where am I",
+            "help"
+          ],
+          "name": "interactive game",
+          "description": "An interactive game skill for Alexa"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": ["GB"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "dist/"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
